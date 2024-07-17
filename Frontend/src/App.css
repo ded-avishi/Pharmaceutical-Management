@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.table-container {
+    overflow-y: auto;
+    height: 800px; /* Adjust height as needed */
+  }
+
+  .item-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .item-count button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .top-right-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    flex: 1;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .title {
+    margin-right: 1300px;
+    font-size: 2rem;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 2rem;
+    font-weight: 500;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  

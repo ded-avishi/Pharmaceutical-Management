@@ -1,0 +1,77 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../../public/mikabaumeisterxwtloyvok0eunsplash-2@2x.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .signup h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(6, 103, 120);
+  }
+  
+  .signup form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #b02a2a;
+    margin: 30px 0;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .btn_signup{
+    width: 300px;
+    height: 50px;
+    border: 2px solid;
+    background: #d92682;
+    border-radius: 25px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+    overflow: none;
+  }
+  
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #2691d9;
+  }
+  
+  .signup_link a{
+    text-decoration: none;
+    color: #2691d9;
+  }
+  
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
